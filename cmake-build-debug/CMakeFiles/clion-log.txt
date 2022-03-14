@@ -1,0 +1,15 @@
+/Applications/Création/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/notesdepth/Documents/Programmes/Projets/C/Particules System"
+CMake Error at CMakeLists.txt:15 (add_executable):
+  The target name "../Particules_System" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:17 (target_link_libraries):
+  Cannot specify link libraries for target "Particules_System" which is not
+  built by this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/notesdepth/Documents/Programmes/Projets/C/Particules System/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/notesdepth/Documents/Programmes/Projets/C/Particules System/cmake-build-debug/CMakeFiles/CMakeError.log".
